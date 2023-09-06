@@ -4,15 +4,7 @@ import './styles.scss';
 function App() {
   return (
     <div className="app">
-      <div>
-        <button
-          onClick={() => {
-            console.log('hello');
-          }}
-        >
-          Click me please
-        </button>
-      </div>
+      <Board />
     </div>
   );
 }
